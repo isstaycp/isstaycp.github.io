@@ -1,0 +1,20 @@
+
+h1{
+    background-color: black;
+    color: yellow;
+    
+}
+
+.nice {
+    /* This is a comment */
+    font-weight: bold;
+    background: #fff;
+}
+
+p {
+    background: green;
+}
+
+#nicer {
+    background-color: gray;
+}

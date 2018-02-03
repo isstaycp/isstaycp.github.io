@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="my first bootstrap html">
+    <meta name="keywords" content="HTML5, CSS3, bootstrap, Javascript, XML">
+    <meta name="author" content "iss stackup">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <title>My BS Page</title>
+</head>
+
+<body>
+    <!-- overall container that contains the entire page layout -->
+    <div class="container-fluid">
+        <!-- header banner -->
+        <header class="jumbotron">
+            <h1>TitanWorms Pte Ltd</h1>
+            <p>My First Bootstrap</p>
+        </header>
+        <!-- nav menu bar -->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">TitanWorks</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="bootstrap.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <form class="navbar-form navbar-right" action="/action_page.php">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- section with two columns -->
+        <div class="container-fluid" style="background-color: yellow">
+            <div class="row">
+                <section class="col-xs-12 col-sm-6" style="background-color: blue">
+                    <div style="padding: 10px 10px 10px 10px; width:80%; border: 2px solid black; border-radius: 5px; height:340px;">
+                        <form action="#">
+                            <div class="form-group">
+                                <label for="email">Email address:</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd">Password:</label>
+                                <input type="password" class="form-control" id="pwd">
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Remember me</label>
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                    </div>
+                </section>
+                <section class="col-xs-12 col-sm-6" style="background-color: green">
+                    <div style="padding: 10px 10px 10px 10px; width:80%; border: 2px solid black; border-radius: 5px;height:340px;">
+                        <h1>About Myself</h1>
+                        <hr>
+                        <p>Technology is changing Fast, everyone is trying to keep up with the pace. We need to slow down, technology
+                            is not every thing. We must learn to keep it under control. Why check Facebook, upload photos
+                            to instagram oftern. The world will still be around without them. We are not slaves to technology,
+                            we need to them to accomplish our tasks. Do not be afraid of robots.
+                        </p>
+                    </div>
+                </section>
+                <p>hello Tan</p>
+            </div>
+
+        </div>
+
+        <!-- youtubue iframe -->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/aNesmtyHl7I?autoplay=false">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 columns div -->
+            <div class="row">
+                <div class="col-xs-4">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                        a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                        typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+                        like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                    </p>
+                </div>
+                <div class="col-xs-4">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                        a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                        typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+                        like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                    </p>
+
+                </div>
+                <div class="col-xs-4">
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy
+                        text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+                        a type specimen book. It has survived not only five centuries, but also the leap into electronic
+                        typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+                        like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-4">
+                    <p>
+                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed
+                        to using 'Content here, content here', making it look like readable English. Many desktop publishing
+                        packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem
+                        ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the
+                        years, sometimes by accident, sometimes on purpose (injected humour and the like).
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                    </p>
+                </div>
+                <div class="col-xs-4">
+                    <p>
+                        Where can I get some? There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+                        in some form, by injected humour, or randomised words which don't look even slightly believable.
+                        If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing
+                        hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
+                        chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of
+                        over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum
+                        which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected
+                        humour, or non-characteristic words etc.
+
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                    </p>
+
+                </div>
+                <div class="col-xs-4">
+                    <p>
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
+                        from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+                        College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum
+                        passage, and going through the cites of the word in classical literature, discovered the undoubtable
+                        source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+                        Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+                        ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
+                        amet..", comes from a line in section 1.10.32. The standard chunk of Lorem Ipsum used since the 1500s
+                        is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et
+                        Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions
+                        from the 1914 translation by H. Rackham.
+
+                    </p>
+                    <p>
+                        <a href="#" class="btn btn-default" role="button">View Details &raquo;</a>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <!-- list group -->
+        <div class="row">
+            <div class="col-md-4 col-xs-12 panel panel-default">
+                <h3 class="text-center">Operating hours</h3>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Day</th>
+                            <th>Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Monday to Thursday</td>
+                            <td>0900 - 1700 hrs</td>
+                        </tr>
+                        <tr>
+                            <td>Friday and Saturday</td>
+                            <td>0900 - 1500 hrs</td>
+                        </tr>
+                    </tbody>
+                    <tr>
+                        <td>Sunday</td>
+                        <td>Closed</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://goo.gl/KUBB7L">
+                    </iframe>
+                </div>
+
+            </div>
+            <div class="col-md-4 col-xs-12">
+                <h3>Check me Out</h3>
+                <br>
+                <div class="list-group">
+                    <a href="#" class="list-group-item">
+                        <i class="fas fa-envelope fa-2x"></i> taycp@mail.com</a>
+                    <a href="#" class="list-group-item">
+                        <i class="fas fa-phone fa-2x"></i> +65 65162092</a>
+                    <a href="#" class="list-group-item">
+                        <i class="fab fa-twitter fa-2x"></i>taycp.com</a>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://www.facebook.com">
+                                <i class="fab fa-facebook-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com">
+                                <i class="fab fa-instagram fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com">
+                                <i class="fab fa-google fa-2x"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.snapchat.com">
+                                <i class="fab fa-snapchat fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <a href="https://placeholder.com"><img src="http://via.placeholder.com/350x150"></a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="text-center">
+            Copyright &copy TitanWorms Pte Ltd
+        </footer>
+    </div>
+
+</body>
+
+</html>
